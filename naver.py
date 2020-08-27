@@ -1,28 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-# # 청소년 불가 영화 code
-# base_url = 'https://movie.naver.com/movie/sdb/browsing/bmovie.nhn?grade=1001004'
-# option = '&page='
-# tail = 1
-
-# remove_list = []
-# for tail in range(tail, 768, 1):
-#     URL = base_url + option + str(tail)
-
-#     response = requests.get(URL)
-#     soup = BeautifulSoup(response.text, 'html.parser')
-
-#     remove = soup.select('#content > .article > div:nth-of-type(1) > #cbody > #old_content > ul > li')
-    
-#     for re in remove:
-#         remove = re.select_one('a')['href'].split('code=')[1]
-#         remove_list.append(remove)
-
-# print(remove_list)
-# print(len(remove_list))
-
-
 
 # 크롤링 메인부분
 base_url = 'https://movie.naver.com/movie/bi/mi/basic.nhn'
