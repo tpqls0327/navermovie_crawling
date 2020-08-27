@@ -1,5 +1,5 @@
 # naver_movie_-crawling
-네이버 영화의 title, genre,  summary를 크롤링한 python 코드
+네이버 영화의 title, genre,  summary를 크롤링한 python 코드<br>
 처음으로 크롤링를 배우고 혼자 짜봤는데 4~5시간이 걸렸다.
 
 # movie.py
